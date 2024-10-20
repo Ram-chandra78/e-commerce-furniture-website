@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>aboutus</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/line-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="image/logo image/logo img.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="aboutus.html"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="true"
+                >
+                  Shop
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                  data-bs-popper="none"
+                >
+                  <div class="arrow"></div>
+                  <li>
+                    <a class="dropdown-item" href="sofa.html">sofas</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="beds.html">beds</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="lamp.html">tabale lamps</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="chair.html">chair</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="temple.html">Wooden mandi</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="doors.html">doors</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cabinet.html">cabinets</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">blogs</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contactus.html"
+                  >contact</a
+                >
+              </li>
+            </ul>
+            <div class="moonbox">
+              <div class="row">
+                <!-- <div class="col-4">
+                  <a id="icon" href="#"><i class="las la-moon"></i></a>
+                </div> -->
+                <div class="col-lg-6">
+                  <a
+                    href="aboutus.html"
+                    class="modal-dialog modal-fullscreen-sm-down"
+                    ><i class="las la-search"></i
+                  ></a>
+                </div>
+                <div class="col-lg-6">
+                  <a id="icon" href="cart.html"
+                    ><i class="las la-shopping-cart"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="loginpage">
+      <div class="container">
+        <form class="form" id="login">
+          <h1 class="form__title">Login</h1>
+          <div class="form__message form__message--error"></div>
+          <div class="form__input-group">
+            <input
+              type="text"
+              class="form__input"
+              autofocus
+              placeholder="Username or email"
+            />
+            <div class="form__input-error-message"></div>
+          </div>
+          <div class="form__input-group">
+            <input
+              type="password"
+              class="form__input"
+              autofocus
+              placeholder="Password"
+            />
+            <div class="form__input-error-message"></div>
+          </div>
+          <button class="form__button" type="submit">Continue</button>
+          <p class="form__text">
+            <a href="#" class="form__link">Forgot your password?</a>
+          </p>
+          <p class="form__text">
+            <a class="form__link" href="./" id="linkCreateAccount"
+              >Don't have an account? Create account</a
+            >
+          </p>
+        </form>
+        <form class="form form--hidden" id="createAccount">
+          <h1 class="form__title">Create Account</h1>
+          <div class="form__message form__message--error"></div>
+          <div class="form__input-group">
+            <input
+              type="text"
+              id="signupUsername"
+              class="form__input"
+              autofocus
+              placeholder="Username"
+            />
+            <div class="form__input-error-message"></div>
+          </div>
+          <div class="form__input-group">
+            <input
+              type="text"
+              class="form__input"
+              autofocus
+              placeholder="Email Address"
+            />
+            <div class="form__input-error-message"></div>
+          </div>
+          <div class="form__input-group">
+            <input
+              type="password"
+              class="form__input"
+              autofocus
+              placeholder="Password"
+            />
+            <div class="form__input-error-message"></div>
+          </div>
+          <div class="form__input-group">
+            <input
+              type="password"
+              class="form__input"
+              autofocus
+              placeholder="Confirm password"
+            />
+            <div class="form__input-error-message"></div>
+          </div>
+          <button class="form__button" type="submit">Continue</button>
+          <p class="form__text">
+            <a class="form__link" href="./" id="linkLogin"
+              >Already have an account? Sign in</a
+            >
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/core.js"></script>
+  </body>
+</html>

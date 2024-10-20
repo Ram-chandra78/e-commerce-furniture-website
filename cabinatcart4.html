@@ -1,0 +1,648 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/line-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="image/logo image/logo img.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="aboutus.html"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  id="navbarScrollingDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="true"
+                >
+                  Shop
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarScrollingDropdown"
+                  data-bs-popper="none"
+                >
+                  <div class="arrow"></div>
+                  <li>
+                    <a class="dropdown-item" href="sofa.html">sofas</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="beds.html">beds</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="lamp.html">tabale lamps</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="chair.html">chair</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="temple.html">Wooden mandi</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="doors.html">doors</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="cabinet.html">cabinets</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">blogs</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contactus.html"
+                  >contact</a
+                >
+              </li>
+            </ul>
+            <div class="moonbox">
+              <div class="row">
+                <!-- <div class="col-4">
+                  <a id="icon" href="#"><i class="las la-moon"></i></a>
+                </div> -->
+                <div class="col-lg-6">
+                  <a
+                    href="index.html"
+                    class="modal-dialog modal-fullscreen-sm-down"
+                    ><i class="las la-search"></i
+                  ></a>
+                </div>
+                <div class="col-lg-6">
+                  <a id="icon" href="cart.html"
+                    ><i class="las la-shopping-cart"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="abanner cartbanner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Cart</h1>
+          </div>
+          <div class="col-md-12">
+            <ul class="d-flax align-items-center">
+              <li><a href="index.html">Home</a></li>
+              <i class="las la-angle-right"></i>
+              <li><a class="active" href="aboutus.html">Cart</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cartboxs">
+      <div class="container">
+        <div class="basket">
+          <div class="basket-module">
+            <label for="promo-code">Enter a promotional code</label>
+            <input
+              id="promo-code"
+              type="text"
+              name="promo-code"
+              maxlength="5"
+              class="promo-code-field"
+            />
+            <button class="promo-code-cta btn-white btn- animate">Apply</button>
+          </div>
+          <div class="basket-labels">
+            <ul>
+              <li class="item item-heading">Item</li>
+              <li class="price">Price</li>
+              <li class="quantity">Quantity</li>
+              <li class="subtotal">Subtotal</li>
+            </ul>
+          </div>
+          <div class="basket-product">
+            <div class="item">
+              <div class="product-image">
+                <img
+                  src="image/cabinets/cab7.png"
+                  alt="Placholder Image 2"
+                  class="product-frame"
+                />
+              </div>
+              <div class="product-details">
+                <h5>
+                  <strong
+                    ><span class="item-quantity">4</span> x Eliza J</strong
+                  >
+                  cabinet
+                </h5>
+                <p>179$ <strong>159$ </strong></p>
+
+                <p>color:red</p>
+
+                <p><strong>Size :18fit*12fit </strong></p>
+                <p>Product Code - 232321939</p>
+              </div>
+            </div>
+            <div class="price">159.00</div>
+            <div class="quantity">
+              <input type="number" value="4" min="1" class="quantity-field" />
+            </div>
+            <div class="subtotal">159.00</div>
+            <div class="remove">
+              <button>Remove</button>
+            </div>
+          </div>
+          <div class="basket-product">
+            <div class="item">
+              <div class="product-image">
+                <img
+                  src="image/cabinets/cab8.png"
+                  alt="Placholder Image 2"
+                  class="product-frame"
+                />
+              </div>
+              <div class="product-details">
+                <h5>
+                  <strong
+                    ><span class="item-quantity">1</span> x Whistles</strong
+                  >
+                  cabinet
+                </h5>
+                <p>99$ <strong>89$ </strong></p>
+
+                <p>color:red</p>
+
+                <p><strong>Size :18fit*12fit </strong></p>
+                <p>Product Code - 232321939</p>
+              </div>
+            </div>
+            <div class="price">89.00</div>
+            <div class="quantity">
+              <input type="number" value="1" min="1" class="quantity-field" />
+            </div>
+            <div class="subtotal">89.00</div>
+            <div class="remove">
+              <button>Remove</button>
+            </div>
+          </div>
+        </div>
+        <div class="aside">
+          <div class="summary">
+            <div class="summary-total-items">
+              <span class="total-items"></span> Items in your Bag
+            </div>
+            <div class="summary-subtotal">
+              <div class="subtotal-title">Subtotal</div>
+              <div class="subtotal-value final-value" id="basket-subtotal">
+                130.00
+              </div>
+              <div class="summary-promo hide">
+                <div class="promo-title">Promotion</div>
+                <div class="promo-value final-value" id="basket-promo"></div>
+              </div>
+            </div>
+            <div class="summary-delivery">
+              <select
+                name="delivery-collection"
+                class="summary-delivery-selection"
+              >
+                <option value="0" selected="selected">
+                  Select Collection or Delivery
+                </option>
+                <option value="collection">Collection</option>
+                <option value="first-class">Royal Mail 1st Class</option>
+                <option value="second-class">Royal Mail 2nd Class</option>
+                <option value="signed-for">Royal Mail Special Delivery</option>
+              </select>
+            </div>
+            <div class="summary-total">
+              <div class="total-title">Total</div>
+              <div class="total-value final-value" id="basket-total">
+                130.00
+              </div>
+            </div>
+            <div class="summary-checkout">
+              <button class="checkout-cta">
+                <a href="checkoutpage.html" class="text-white"
+                  >Go to Secure Checkout</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bestdeals">
+      <div class="container">
+        <div class="head">
+          <h2 class="mb-4 section-title ms-4"><span>R</span>elated products</h2>
+        </div>
+        <div class="product_grid">
+          <ul class="product_list list">
+            <li class="product_item me-3 mb-3">
+              <div class="product_sale">
+                <p>On Sale</p>
+              </div>
+              <div class="product_image">
+                <a href="cabinatcart.html"
+                  ><img
+                    src="image/cabinets/cab9.png"
+                    alt=""
+                    style="width: 300px; height: 300px"
+                /></a>
+                <div class="product_buttons">
+                  <button class="product_heart">
+                    <a href="checkoutpage.html" class="productbb">
+                      <i class="las la-heart"></i>
+                    </a>
+                  </button>
+                  <button class="product_compare">
+                    <a href="cart.html" class="productbb">
+                      <i class="las la-shopping-cart"></i>
+                    </a>
+                  </button>
+                  <button class="add_to_cart">
+                    <a href="cabinet.html" class="productbb">
+                      <i class="las la-search"></i>
+                    </a>
+                  </button>
+                  <div class="quick_view">
+                    <a href="#">
+                      <h6>Quick View</h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product_values">
+                <div class="product_title">
+                  <h5>cabinet</h5>
+                </div>
+                <div class="product_price">
+                  <a href="cabinatcart.html"
+                    ><span class="price_old">$79.99</span>
+                    <span class="price_new">$69.99</span></a
+                  >
+                  <span class="product_rating"></span>
+                </div>
+                <div class="product_desc">
+                  <!-- <p class="truncate">
+                                    Sed sodales odio non metus tincidunt consectetur. Integer
+                                    non lobortis orci. In hac habitasse platea dictumst.
+                                    </p> -->
+                </div>
+                <div class="product_buttons">
+                  <button class="product_heart">
+                    <a href="checkoutpage.html" class="productbb">
+                      <i class="las la-heart"></i>
+                    </a>
+                  </button>
+                  <button class="product_compare">
+                    <a href="cart.html" class="productbb">
+                      <i class="las la-shopping-cart"></i>
+                    </a>
+                  </button>
+                  <button class="add_to_cart">
+                    <a href="cabinet.html" class="productbb">
+                      <i class="las la-search"></i>
+                    </a>
+                  </button>
+                  <div class="quick_view">
+                    <a href="#">
+                      <h6>Quick View</h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="product_item me-3 mb-3">
+              <div class="product_image">
+                <a href="cabinatcart.html"
+                  ><img
+                    src="image/cabinets/cab2.png"
+                    alt=""
+                    style="width: 300px; height: 300px"
+                /></a>
+                <div class="product_buttons">
+                  <button class="product_heart">
+                    <a href="checkoutpage.html" class="productbb">
+                      <i class="las la-heart"></i>
+                    </a>
+                  </button>
+                  <button class="product_compare">
+                    <a href="cart.html" class="productbb">
+                      <i class="las la-shopping-cart"></i>
+                    </a>
+                  </button>
+                  <button class="add_to_cart">
+                    <a href="cabinet.html" class="productbb">
+                      <i class="las la-search"></i>
+                    </a>
+                  </button>
+                  <div class="quick_view">
+                    <a href="#">
+                      <h6>Quick View</h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product_values">
+                <div class="product_title">
+                  <h5>cabinet</h5>
+                </div>
+                <div class="product_price">
+                  <a href="cabinatcart.html"
+                    ><span class="price_old">$99.99</span>
+                    <span class="price_new">$89.99</span></a
+                  >
+                  <span class="product_rating"></span>
+                </div>
+                <div class="product_desc">
+                  <!-- <p class="truncate">
+                                    Sed sodales odio non metus tincidunt consectetur. Integer
+                                    non lobortis orci. In hac habitasse platea dictumst.
+                                    </p> -->
+                </div>
+              </div>
+            </li>
+            <li class="product_item me-3 mb-3">
+              <div class="product_image">
+                <a href="cabinatcart4.html"
+                  ><img
+                    src="image/cabinets/cab4.png"
+                    alt=""
+                    style="width: 300px; height: 300px"
+                /></a>
+                <div class="product_buttons">
+                  <button class="product_heart">
+                    <a href="checkoutpage.html" class="productbb">
+                      <i class="las la-heart"></i>
+                    </a>
+                  </button>
+                  <button class="product_compare">
+                    <a href="cabinatcart4.html" class="productbb">
+                      <i class="las la-shopping-cart"></i>
+                    </a>
+                  </button>
+                  <button class="add_to_cart">
+                    <a href="cabinet.html" class="productbb">
+                      <i class="las la-search"></i>
+                    </a>
+                  </button>
+                  <div class="quick_view">
+                    <a href="cabinatcart4.html">
+                      <h6>Quick View</h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="product_values">
+                <div class="product_title">
+                  <h5>cabinet</h5>
+                </div>
+                <div class="product_price">
+                  <a href="cabinatcart4.html"
+                    ><span class="price_old">$159.99</span>
+                    <span class="price_new">$129.99</span></a
+                  >
+                  <span class="product_rating"></span>
+                </div>
+                <div class="product_desc">
+                  <!-- <p class="truncate">
+                                    Sed sodales odio non metus tincidunt consectetur. Integer
+                                    non lobortis orci. In hac habitasse platea dictumst.
+                                    </p> -->
+                </div>
+                <div class="product_buttons">
+                  <button class="product_heart">
+                    <a href="checkoutpage.html" class="productbb">
+                      <i class="las la-heart"></i>
+                    </a>
+                  </button>
+                  <button class="product_compare">
+                    <a href="cart.html" class="productbb">
+                      <i class="las la-shopping-cart"></i>
+                    </a>
+                  </button>
+                  <button class="add_to_cart">
+                    <a href="cabinet.html" class="productbb">
+                      <i class="las la-search"></i>
+                    </a>
+                  </button>
+                  <div class="quick_view">
+                    <a href="#">
+                      <h6>Quick View</h6>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-top py-6 py-md-7 py-lg-9">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-xl-3 col-xxl-4">
+              <div class="mb-4">
+                <a href="index.html">
+                  <img src="image/logo image/logo img.png" title="" alt="" />
+                </a>
+              </div>
+              <p class="Subscribe text-white w-80 w-xxl-60 mb-4">
+                Subscribe to receive inspiration, ideas, and news in your inbox.
+              </p>
+              <div class="d-flex pt-2 align-items-center">
+                <div class="phone h1 m-0 lh-1 mt-1">
+                  <i class="las la-phone align-items-center"></i>
+                </div>
+                <div class="col ps-2">
+                  <a href="callto:+91 8368818646" class="text-white mb-1 h4"
+                    >+91 8888888888</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 col-xxl-2">
+              <h5 class="footer-title-01 text-white">about us</h5>
+              <ul class="list-unstyled footer-link-01 m-0">
+                <li>
+                  <a class="text-white text-opacity-85" href="aboutus.html"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white text-opacity-85" href="login.html"
+                    >login</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white text-opacity-85" href="cart.html"
+                    >Cart</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white text-opacity-85" href="#Testimonialss"
+                    >Testimonials</a
+                  >
+                </li>
+
+                <li>
+                  <a class="text-white text-opacity-85" href="contactus.html"
+                    >Contect us</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-lg-4 col-xl-3 col-xxl-2">
+              <h5 class="footer-title-01 text-white">QUICK LINKS</h5>
+              <ul class="list-unstyled footer-link-01 m-0">
+                <li>
+                  <a class="text-white text-opacity-85" href="services.html"
+                    >services</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white text-opacity-85" href="blog.html"
+                    >Blogs</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white text-opacity-85" href="#Partners"
+                    >Trade Partners</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="text-white text-opacity-85"
+                    href="Privacypolicy.html"
+                    >Privacy policy</a
+                  >
+                </li>
+                <li>
+                  <a class="text-white text-opacity-85" href="Faq's.html"
+                    >FAQ's</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-xl-3 col-xxl-4">
+              <h5 class="footer-title-01 text-white">Appointment Hours</h5>
+              <p class="text-white text-white-85">
+                Subscribe to our news and case studies
+              </p>
+              <form class="d-flex flex-row mb-2 p-1 bg-white input-group">
+                <input
+                  type="email"
+                  class="form-control rounded-0 border-0 bg-white text-black"
+                  placeholder="you@yoursite.com"
+                />
+                <button
+                  class="btn btn-primary rounded-0 flex-shrink-0"
+                  type="submit"
+                >
+                  Get Started
+                </button>
+              </form>
+              <div class="d-flex flex-row nav pt-4">
+                <a
+                  class="icon-xs p-0 btn-primary rounded-circle me-2"
+                  href="https://www.facebook.com/"
+                  ><i class="lab la-facebook-f"></i> </a
+                ><a
+                  class="icon-xs p-0 btn-primary rounded-circle me-2"
+                  href="https://www.twitter.com/"
+                  ><i class="lab la-twitter"></i> </a
+                ><a
+                  class="icon-xs p-0 btn-primary rounded-circle me-2"
+                  href="https://www.instagram.com/"
+                  ><i class="lab la-instagram"></i> </a
+                ><a
+                  class="icon-xs p-0 btn-primary rounded-circle me-2"
+                  href="https://www.linkedin.com/"
+                  ><i class="lab la-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="opacity-20 m-0" />
+      <div class="py-2">
+        <div class="container">
+          <div class="row gy-3 align-items-center">
+            <div class="col-md-6">
+              <ul
+                class="nav justify-content-md-start my-2 links-white small list-unstyled footer-link-01 m-0"
+              >
+                <li class="p-0 mx-3 ms-md-0 me-md-3">
+                  <a href="Privacypolicy.html" class="link-white opacity-7"
+                    >Privace &amp; Policy</a
+                  >
+                </li>
+                <li class="p-0 mx-3 ms-md-0 me-md-3">
+                  <a href="Faq's.html" class="link-white opacity-7">Faq's</a>
+                </li>
+                <li class="p-0 mx-3 ms-md-0 me-md-3">
+                  <a href="#" class="link-white opacity-7">Get a Quote</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <p class="text-white text-opacity-85 small m-0">
+                © 2023 Furniture by 1webexpert.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
